@@ -9,8 +9,8 @@ module Facebook
           @messaging['postback']['payload']
         end
         
-        def ref
-          (@messaging['referral'] || {})['ref']
+        def referral
+          @messaging['referral']
         end
       end
     end
