@@ -10,7 +10,7 @@ module Facebook
         end
         
         def referral
-          @messaging['referral']
+          @messaging['postback']['referral']
         end
       end
     end
