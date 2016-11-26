@@ -17,6 +17,7 @@ module Facebook
         'postback' => Postback,
         'optin' => Optin,
         'read' => Read,
+        'referral' => Referral,
         'account_linking' => AccountLinking
       }.freeze
 
