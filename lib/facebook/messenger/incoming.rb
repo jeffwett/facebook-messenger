@@ -5,6 +5,7 @@ require 'facebook/messenger/incoming/postback'
 require 'facebook/messenger/incoming/optin'
 require 'facebook/messenger/incoming/read'
 require 'facebook/messenger/incoming/account_linking'
+require 'facebook/messenger/incoming/referral'
 
 module Facebook
   module Messenger
